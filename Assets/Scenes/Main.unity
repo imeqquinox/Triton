@@ -874,7 +874,7 @@ GameObject:
   - component: {fileID: 1845933397}
   - component: {fileID: 1845933396}
   - component: {fileID: 1845933398}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3272,6 +3272,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4125916892480677741, guid: eca8b133c4ba5634d947daebe9cec31f, type: 3}
+      propertyPath: jumpForce
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125916892480677741, guid: eca8b133c4ba5634d947daebe9cec31f, type: 3}
+      propertyPath: moveSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7322973940906512262, guid: eca8b133c4ba5634d947daebe9cec31f, type: 3}
       propertyPath: m_RootOrder
       value: 1
