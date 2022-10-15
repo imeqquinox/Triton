@@ -6,8 +6,8 @@ using UnityEngine.Tilemaps;
 [CreateAssetMenu]
 public class TileData : ScriptableObject
 {
-    public TileBase[] tiles { get; }
-    public TileType type { get; }
+    public TileBase[] tiles { get; private set; }
+    public TileType type { get; private set; }
 
     private float destructionTime = 0f; 
 

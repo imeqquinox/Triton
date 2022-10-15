@@ -26,19 +26,19 @@ public class MapManager : MonoBehaviour
 
         grid = GetComponent<Tilemap>();
         tileData = new List<TileData>();
-        tileData.Add((TileData)AssetDatabase.LoadAssetAtPath("Assets/Prefabs/ScriptableObjects/WoodTileData.asset", typeof(TileData))); 
+        tileData.Add((TileData)AssetDatabase.LoadAssetAtPath("Assets/Prefabs/ScriptableObjects/Tiles/WoodTileData.asset", typeof(TileData))); 
         dataFromTiles = new Dictionary<TileBase, TileData>(); 
     }
 
     private void Start()
     {
-        foreach (var tile_data in tileData)
-        {
-            foreach (var tile in tile_data.tiles)
-            {
-                dataFromTiles.Add(tile, tile_data);
-            }
-        }
+        //foreach (var tile_data in tileData)
+        //{
+        //    foreach (var tile in tile_data.tiles)
+        //    {
+        //        dataFromTiles.Add(tile, tile_data);
+        //    }
+        //}
     }
 
     private void Update()
