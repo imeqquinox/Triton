@@ -201,6 +201,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  armTrans: {fileID: 0}
 --- !u!1 &7322973942394313760
 GameObject:
   m_ObjectHideFlags: 0

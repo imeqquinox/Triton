@@ -14,9 +14,9 @@ public class PlayerController : MonoBehaviour
     private Transform groundCheck;
 
     private void Awake()
-    {
+    { 
         body = GetComponent<Rigidbody2D>();
-        groundCheck = GetComponentInParent<Transform>().Find("GroundCheck"); 
+        groundCheck = GetComponentInParent<Transform>().Find("GroundCheck");
     }
 
     private void Update()
